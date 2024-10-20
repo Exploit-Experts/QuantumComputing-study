@@ -1,0 +1,6 @@
+- Amplificação de Amplitude: Uma técnica empregada em algoritmos como o de Grover para aumentar a probabilidade de encontrar a solução correta.
+- Princípio da Transformada Quântica de Fourier: Fundamental em muitos algoritmos quânticos, como o de Shor, realiza transformações de dados em espaços de estado quântico.
+- Interferência Quântica: Trabalhando junto com a amplificação de amplitude, a interferência serve para neutralizar os resultados menos prováveis deixando somente o mais provável como output.
+- Principio da Incerteza de Heisenberg: A mecânica quântica é probabilística, ou seja, os outputs dos algoritmos não vão nos devolver um resultado determinado, mas sim a probabilidade de um.
+
+O progresso em achar algoritmos quânticos normalmente foca no modelo de circuito quântico, apesar de exceções como o algoritmo adiabático quântico existam. Algoritmos quânticos podem ser grosseiramente categorizados pela quantidade de aumento na velocidade de processamento alcançada sobre o correspondente algoritmo clássico.

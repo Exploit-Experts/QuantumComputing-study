@@ -1,0 +1,8 @@
+O **algoritmo de Grover** oferece uma vantagem quadrática em relação aos algoritmos clássicos para problemas de busca não estruturada. Enquanto a busca clássica necessita de **O(N)** operações, o algoritmo de Grover consegue resolver o problema com aproximadamente **O(√N)** operações. Ele aproveita os princípios de **superposição** e **interferência quântica** para tornar o processo de busca mais eficiente.
+
+<details>
+  <summary>Explicação</summary>
+ <p>Os problemas de busca são fundamentais na computação, sendo necessários em diversas aplicações, como encontrar um item específico em uma base de dados. Nos métodos clássicos, a busca em um conjunto não estruturado exige a análise sequencial de todos os elementos, o que resulta em um tempo de processamento de O(N), ou seja, proporcional ao número de elementos a serem verificados.</p>
+<p>O algoritmo de Grover explora a natureza da computação quântica, que permite que várias operações sejam realizadas simultaneamente por meio do fenômeno da superposição. Nesse contexto, em vez de examinar cada elemento de maneira sequencial, o algoritmo pode "buscar" por meio de várias soluções ao mesmo tempo. A interferência quântica é usada para amplificar a probabilidade de encontrar a solução correta enquanto minimiza as soluções incorretas.</p>
+<p>O resultado é que, com o algoritmo de Grover, é possível reduzir o número de operações necessárias para resolver problemas de busca de O(N) para O(√N), proporcionando uma melhoria significativa em eficiência, especialmente em grandes bases de dados ou problemas de busca complexos.</p>
+</details>
