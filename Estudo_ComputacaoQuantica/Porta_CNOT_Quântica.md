@@ -1,13 +1,17 @@
-Atua em estados de 2 _qubits_, é a contrapartida quântica do circuito clássico da porta _XOR_. Ela tem 2 _qubits_ de entrada, o de controle e o alvo. Uma porta controlada, age dependendo do valor do _qubit_ de controle. Ela é "ativada" se o _qubit_ de controle estiver no estado ![{\displaystyle |1\rangle ,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/3ab8dd8621da4ac3dceedaf4d812f70bb4d10ec4) e nada faz, se ele estiver no estado | 0 ⟩ . ![{\displaystyle |0\rangle .}](https://wikimedia.org/api/rest_v1/media/math/render/svg/7779ca17ce5ca0023380cab71a719677cb20acc3) Essa descrição é adequada apenas quando o _qubit_ de controle está nos estados ![{\displaystyle |0\rangle ,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/f0d44c5fa52751e6d5277442dab35493a2a6f2f2) ou ![{\displaystyle |1\rangle .}](https://wikimedia.org/api/rest_v1/media/math/render/svg/601a5de8ce287cf4bdbf0cfb7bbc52f8c38f3c2b) Entretanto, o que distingue a porta _CNOT_ quântica da clássica é que, na porta _CNOT_ quântica, os _qubits_ alvo e de controle podem ser estados superpostos.
+A porta **CNOT** (Controlled-NOT) atua em dois qubits, sendo uma contraparte quântica do **XOR** clássico. Ela age dependendo do valor do qubit de controle: se o controle estiver em |1⟩, inverte o estado do qubit alvo; se estiver em |0⟩, não faz nada. A diferença no caso quântico é que tanto o qubit de controle quanto o alvo podem estar em superposição de estados. A transformação da porta CNOT é descrita por:
 
-A ação da porta _CNOT_ pode ser caracterizada pelas transformações operadas nos elementos da base computacional associada, ou seja,
+- |00⟩ → |00⟩
+- |01⟩ → |01⟩
+- |10⟩ → |11⟩
+- |11⟩ → |10⟩
 
- ![{\displaystyle {\begin{matrix}|00\rangle &\rightarrow &|00\rangle ,\\|01\rangle &\rightarrow &|01\rangle ,\\|10\rangle &\rightarrow &|11\rangle ,\\|11\rangle &\rightarrow &|10\rangle .\end{matrix}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1b20e1d4630fbe2e44b49fe816734b8b7c457c71) 
+Contudo, a sensibilidade dos qubits à superposição e o impacto de ruídos e superaquecimento dificultam o desenvolvimento de computadores quânticos práticos.
 
-Note que é possível representar essa ação na base computacional de forma mais esquemática por
+semelhante ao **XOR** clássico, Ela age sobre dois qubits: um **qubit de controle** e um **qubit alvo**. Se o qubit de controle estiver no estado |1⟩, a porta **CNOT** inverte o estado do qubit alvo (por exemplo, de |0⟩ para |1⟩). Caso o qubit de controle esteja em |0⟩, a porta não faz nada ao qubit alvo.
 
- ![{\displaystyle |i,j\rangle \rightarrow |i,i\oplus j\rangle ,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/e3d271fb11d2cbcd3f1d16dfc86d085349d96955) 
+A grande diferença entre a **CNOT quântica** e a clássica é que, na computação quântica, ambos os qubits podem estar em uma **superposição de estados**. Isso significa que a porta **CNOT** pode operar sobre combinações de estados, o que gera a transformação de superposições quânticas, uma característica fundamental para criar algoritmos quânticos mais poderosos.
 
-onde ![{\displaystyle i,j\in \{0,1\}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/3dc8036aa33823d2cc67665f653a27ea2c61953b) e  ![{\displaystyle \oplus }](https://wikimedia.org/api/rest_v1/media/math/render/svg/8b16e2bdaefee9eed86d866e6eba3ac47c710f60) é a adição módulo 2.
+A operação da porta **CNOT** pode ser esquematizada da seguinte forma:
 
-Entretanto da mesma maneira que a superposição de estados permite a criação do computador quântico é essa mesma propriedade que inviabiliza a criação deles. A superposição é muito sensível a qualquer micro ruído eletromagnético que pode alterar o estado do qubit fazendo com que a informação que ele continha seja perdida. Outro fato importante em questão é o superaquecimento das máquinas.
+- Se os qubits de entrada forem |00⟩ ou |01⟩, eles permanecem inalterados.
+- Se os qubits de entrada forem |10⟩ ou |11⟩, o qubit alvo é invertido.

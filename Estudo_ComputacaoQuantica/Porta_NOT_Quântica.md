@@ -1,8 +1,4 @@
-No caso clássico, a porta _NOT_ troca o 1 por 0 e vice-versa. A generalização para o caso quântico é dada por um operador  ![{\displaystyle X}](https://wikimedia.org/api/rest_v1/media/math/render/svg/68baa052181f707c662844a465bfeeb135e82bab) que satisfaz 
-
- ![{\displaystyle X|1\rangle =|0\rangle }](https://wikimedia.org/api/rest_v1/media/math/render/svg/753cd0153c35b8d10551bf7fd9da25fb274edb6b) e  ![{\displaystyle X|0\rangle =|1\rangle .}](https://wikimedia.org/api/rest_v1/media/math/render/svg/5b555a7d3e0a645bf98c7356e274b383ded2e48b) 
-
-Com isso, verifica-se facilmente que a representação matricial do operador ![{\displaystyle X}](https://wikimedia.org/api/rest_v1/media/math/render/svg/68baa052181f707c662844a465bfeeb135e82bab) é dada por
+Na **computação clássica**, a porta **NOT** troca o valor de 0 para 1 e 1 para 0. Na **computação quântica**, a porta **X** (generalização quântica da porta NOT) realiza a mesma função básica, mas sua aplicação é mais rica devido à natureza quântica. O operador **X** pode trocar o estado de um qubit de |0⟩ para |1⟩ e vice-versa. A forma matricial deste operador é:
 
  ![{\displaystyle X={\begin{bmatrix}0&1\\1&0\end{bmatrix}}.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/c035b52b7d1edac3e4d023933dcfedf16b505ea3) 
 
@@ -14,4 +10,6 @@ a saída será
 
 ![{\displaystyle X|\phi \rangle =\beta |0\rangle +\alpha |1\rangle ,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/f5bd6757975a117f3da2922fdc759f1dde904c99) 
 
-A porta X ![{\displaystyle X}](https://wikimedia.org/api/rest_v1/media/math/render/svg/68baa052181f707c662844a465bfeeb135e82bab) é apenas uma das portas de 1 _qubit_, já que há infinitas matrizes unitárias ![{\displaystyle 2\times 2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/f8a0e3400ffb97d67c00267ed50cddfe824cbe80) .
+A porta ![{\displaystyle X}](https://wikimedia.org/api/rest_v1/media/math/render/svg/68baa052181f707c662844a465bfeeb135e82bab) é apenas uma das portas de 1 _qubit_, já que há infinitas matrizes unitárias ![{\displaystyle 2\times 2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/f8a0e3400ffb97d67c00267ed50cddfe824cbe80) .
+
+Essa operação é mais poderosa que o equivalente clássico, já que a computação quântica lida com **superposições** de estados, permitindo uma manipulação mais complexa da informação. Além disso, há infinitas outras portas quânticas unitárias 2x2, o que significa que a computação quântica oferece muitas maneiras de transformar e manipular estados quânticos de 1 qubit.

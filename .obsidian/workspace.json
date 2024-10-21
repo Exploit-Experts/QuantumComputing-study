@@ -11,10 +11,14 @@
             "id": "2836e47736954e32",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Estudo_ComputacaoQuantica/Pilares_dos_algoritmos_quânticos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pilares_dos_algoritmos_quânticos"
             }
           }
         ]
@@ -73,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "dfe479cddba3c628",
@@ -90,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -108,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -133,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "README.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of README"
             }
           }
         ]
@@ -157,6 +164,22 @@
   },
   "active": "2836e47736954e32",
   "lastOpenFiles": [
-    "README.md"
+    "Estudo_ComputacaoQuantica/Porta_NOT_Quântica.md",
+    "Estudo_ComputacaoQuantica/Porta_CNOT_Quântica.md",
+    "Estudo_ComputacaoQuantica/Princípios.md",
+    "Estudo_ComputacaoQuantica/Problema_de_não_linearidade.md",
+    "Estudo_ComputacaoQuantica/Computação_Quântica.md",
+    "Estudo_ComputacaoQuantica/Recozimento_quântico.md",
+    "README.md",
+    "Estudo_ComputacaoQuantica/Definição.md",
+    "Estudo_ComputacaoQuantica/Pilares_dos_algoritmos_quânticos.md",
+    "Estudo_ComputacaoQuantica/Algoritmo_de_Grover.md",
+    "Estudo_ComputacaoQuantica/Algoritmo_adiabático.md",
+    "Estudo_ComputacaoQuantica/Algoritmos_quânticos.md",
+    "Estudo_ComputacaoQuantica/História.md",
+    "Estudo_ComputacaoQuantica/imagens/aabd1ffc6a57b00e254e4c212d98ebbea6ccc7fc.svg",
+    "Estudo_ComputacaoQuantica/imagens/626a1534e007d6511762add99f012fbe7db8f845.svg",
+    "Estudo_ComputacaoQuantica/imagens/7a72099dd8347d05e92c98f19db855b1651f8402.svg",
+    "Estudo_ComputacaoQuantica/imagens"
   ]
 }
